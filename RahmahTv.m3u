@@ -69,12 +69,12 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:berita/chunklist_b4596000_slENG.m3u8
 ##===== Bonus Movie =====##
 
 #EXTINF:-1 group-title="🍿 BONUS MOVIES" tvg-logo="https://warningfm.github.io/v3/img/aMtD0A0.png?v=1.0.0.1" tvg-id="HBO" tvg-name="HBO", HBO HD (ID)
-https://cdnjkt2.transvision.co.id:1001/live/master/3/4028c6856b6088c3016b87d64b970b53/manifest.mpd
+https://nonton.site:8443/ekos/7483/26595
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/5053
 #EXTINF:-1 tvg-id="HBOFamily1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/HBO_Family_Asia_logo.svg/1200px-HBO_Family_Asia_logo.svg.png" tvg-name="HBO FAMILY" group-title="🍿 BONUS MOVIES",HBO FAMILY
-http://linearjitp-playback.astro.com.my/dash-wv/linear/5053/default_ott.mpd
+http://starhd.kozow.com:8880/Marcolio1000/R7jCsyLRpp/119056
 
 #EXTINF:-1 group-title="🍿 BONUS MOVIES" tvg-id="CinemaWorld.my" tvg-logo="https://cinemaworld.asia/CW_BannerLogo@2x.png",CinemaWorld 
 http://210.210.155.35/dr9445/h/h04/index.m3u8
