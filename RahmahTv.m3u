@@ -1,0 +1,125 @@
+#EXTM3U url-tvg="https://github.com/thefirefox12537/streams/blob/master/epg/local/guide.xml"
+#EXTM3U url-tvg="https://github.com/thefirefox12537/streams/blob/master/epg/global/guide.xml.gz"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/AqFad2811/epg/main/astro.xml"refresh="1440"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/weareblahs/epg/master/astro.xml" 
+#EXTM3U url-tvg="https://raw.githubusercontent.com/AqFad2811/epg/main/unifitv.xml"
+#EXTM3U x-tvg-url=https://aqfadtv.xyz/epg refresh="1440" max-conn="800" refresh="24"
+
+###### my freeview ######
+
+#EXTINF:-1 tvg-id="TVIKIM" tvg-name="IKIM" group-title="🇲🇾 MALAY 🇲🇾"  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bf/Radio_IKIM.png",TV IKIM HD
+https://edge-sg1.vediostream.com/abr/tvikim/live/tvikim_source/chunks.m3u8
+
+#EXTINF:-1 tvg-id="TV1" tvg-chno="101" tvg-name="TV1"  group-title="🇲🇾 MALAY 🇲🇾" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/395_144.png",TV1 
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/711
+https://linearjitp02-playback.astro.com.my/dash-wv/linear/711/default_ott.mpd
+
+#EXTINF:-1 tvg-id="TV2" group-title="🇲🇾 MALAY 🇲🇾" ch-number="102" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TV2_v1.png",TV2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/5027
+https://linearjitp02-playback.astro.com.my/dash-wv/linear/5027/default_ott.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/unifitv/tv3
+#EXTINF:-1 tvg-id="103" tvg-name="TV3" group-title="🇲🇾 MALAY 🇲🇾" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/106_144.png",TV3 HD
+http://gamsgo.cyou:8080/live/Vladisergeevic/7eef2c4388/158360.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-chno="108" tvg-name="TV6" radio="false" catchup="default" group-title="🇲🇾 MALAY 🇲🇾" tvg-logo="https://i.ibb.co/vHcWdsP/image.png",TV6 
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/manifest.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.chooser_resolution_secure_max=360p
+#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/unifitv/didiktvkpm/
+#EXTINF:-1 tvg-id="DidikTVKPM" tvg-logo="https://ws.kapallayar.cc//image//Logo//MALAYSIA//New//M_V7.png" group-logo="https://playtv.unifi.com.my:7041/EPG/WEBTV/assets/images/unifi_logo_white.png?=w272-h144" group-title="🇲🇾 MALAY 🇲🇾",TV7
+https://unifi-live05.secureswiftcontent.com/UnifiHD/live06.mpd
+
+
+#EXTINF:-1 tvg-id="8TV" tvg-chno="111" tvg-name="8TV" radio="false" catchup="default" group-title="🇲🇾 MALAY 🇲🇾" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/89/8TV_%28Malaysia%29_logo_in_English.svg/640px-8TV_%28Malaysia%29_logo_in_English.svg.png",8TV 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/93.0.4577.82 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.dailymotion.com
+http://vo01.mohdtv.com:8880/ALLChannels580cde0012c3/49768421/1730
+
+#EXTINF:-1 tvg-id="TV9" tvg-logo="https://ws.kapallayar.cc//image//Logo//MALAYSIA//New//M_V9.png" group-logo="https://playtv.unifi.com.my:7041/EPG/WEBTV/assets/images/unifi_logo_white.png?=w272-h144" group-title="🇲🇾 MALAY 🇲🇾",TV9
+http://aflaxtv.xyz:8080/iptvepic4/DzbGTtATy4DzmK8c/171953
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/1113
+#EXTINF:-1 tvg-id="TVAlhijrah" tvg-name="Al-Hijrah" group-title="🇲🇾 MALAY 🇲🇾" group-logo="https://playtv.unifi.com.my:7041/EPG/WEBTV/assets/images/unifi_logo_white.png?=w272-h144" tvg-logo="https://ws.kapallayar.cc//image//Logo//MALAYSIA//New//M_Hijrah.png",AL HIJRAH
+https://linearjitp02-playback.astro.com.my/dash-wv/linear/1113/default_ott.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/5072
+#EXTINF:-1 tvg-id="OKEY" tvg-name="TV Okey" group-title="🇲🇾 MALAY 🇲🇾" group-logo="https://playtv.unifi.com.my:7041/EPG/WEBTV/assets/images/unifi_logo_white.png?=w272-h144" tvg-logo="https://ws.kapallayar.cc//image//Logo//MALAYSIA//New//M_Okey.png",TV OKEY
+https://linearjitp02-playback.astro.com.my/dash-wv/linear/5072/default_ott.mpd
+
+##===== Berita =====##
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=09891197fd467008f73b1fe18bfed710&key=fa752673e5da5541a796569371788dea
+#EXTINF:-1 tvg-id=" " group-title="🇲🇾 BERITA 🇲🇾" tvg-logo="https://freeview.github.io/iptv/logos/awani.png",Awani HD
+http://linearjitp-playback.astro.com.my/dash-wv/linear/5025/default_ott.mpd
+
+#EXTINF:-1 tvg-id="BERNAMA" group-title="🇲🇾 BERITA 🇲🇾" tvg-logo="https://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/502.png",BERNAMA 
+https://tinyurl.com/vo01bnm
+
+#EXTINF:-1 tvg-id="BERITA RTM" group-title="🇲🇾 BERITA 🇲🇾" tvg-logo="https://berita.rtm.gov.my/images/logobes.jpg",Berita RTM
+https://d25tgymtnqzu8s.cloudfront.net/smil:berita/chunklist_b4596000_slENG.m3u8
+
+##===== Bonus Movie =====##
+
+#EXTINF:-1 group-title="🍿 BONUS MOVIES" tvg-logo="https://warningfm.github.io/v3/img/aMtD0A0.png?v=1.0.0.1" tvg-id="HBO" tvg-name="HBO", HBO HD (ID)
+https://cdnjkt2.transvision.co.id:1001/live/master/3/4028c6856b6088c3016b87d64b970b53/manifest.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/5053
+#EXTINF:-1 tvg-id="HBOFamily1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/HBO_Family_Asia_logo.svg/1200px-HBO_Family_Asia_logo.svg.png" tvg-name="HBO FAMILY" group-title="🍿 BONUS MOVIES",HBO FAMILY
+http://linearjitp-playback.astro.com.my/dash-wv/linear/5053/default_ott.mpd
+
+#EXTINF:-1 group-title="🍿 BONUS MOVIES" tvg-id="CinemaWorld.my" tvg-logo="https://cinemaworld.asia/CW_BannerLogo@2x.png",CinemaWorld 
+http://210.210.155.35/dr9445/h/h04/index.m3u8
+
+
+
+##===== Kartun ======##
+
+#EXTINF:-1 tvg-id="Nickelodeon" tvg-logo="https://i.ibb.co/nQd4fKq/nick.png" group-title="🐿️ Kartun",Nickelodeon ch-number="616",Nickelodeon (ID)
+https://tinyurl.com/v0o1tv2
+
+#EXTINF:-1 tvg-id="" group-title="🐿️ Kartun" tvg-logo="https://www.mncvision.id/userfiles/image/channel/Animax_150x150.png",Animax Asia (ID)
+https://tinyurl.com/vo01tv
+
+#EXTINF:-1 tvg-id="CBeebies" group-title="🐿️ Kartun" group-logo="https://aqfadtv.xyz/images/kids.png" tvg-logo="https://aqfadtv.xyz/logos/CBeebies.png" ch-number="620",620 CBeebies
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/5093
+https://linearjitp-playback.astro.com.my/dash-wv/linear/5093/default.mpd
+
+#EXTINF:-1 tvg-id="5f7790b3ed0c88000720b241" tvg-name="One Piece" tvg-logo="" group-title="🐿️ Kartun",one piece
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f7790b3ed0c88000720b241/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+
+
+
+##==== Sukan =====##
+
+#EXTINF:-1 tvg-id="SukanRTM.my" tvg-name="Sukan RTM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/64/RTM_Sports.png" group-title="⚽ SPORTS ⚽",Sukan RTM
+https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://weblivehdplay.ru/
+#EXTINF:-1 tvg-id="AstroSuperSport.my" tvg-logo="https://linear-poster.astro.com.my/prod/logo/Astro_SuperSport_v1.png" group-title="⚽ SPORTS ⚽"",Astro SuperSport
+https://webudit.hlsjs.ru/lb/premium123/index.m3u8
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://weblivehdplay.ru/
+#EXTINF:-1 tvg-id="AstroSuperSport2.my" tvg-logo="https://linear-poster.astro.com.my/prod/logo/Astro_SuperSport2_v1.png" group-title="⚽ SPORTS ⚽"",Astro SuperSport 2
+https://webudit.hlsjs.ru/lb/premium124/index.m3u8
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://weblivehdplay.ru/
+#EXTINF:-1 tvg-id="AstroSuperSport3.my" tvg-logo="https://linear-poster.astro.com.my/prod/logo/Astro_SuperSport3_v1.png" group-title="⚽ SPORTS ⚽",Astro SuperSport 3
+https://webudit.hlsjs.ru/lb/premium125/index.m3u8
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://weblivehdplay.ru/
+#EXTINF:-1 tvg-id="AstroSuperSport4.my" tvg-logo="https://linear-poster.astro.com.my/prod/logo/Astro_SuperSport4_v1.png" group-title="⚽ SPORTS ⚽",Astro SuperSport 4
+https://webudit.hlsjs.ru/lb/premium126/index.m3u8
